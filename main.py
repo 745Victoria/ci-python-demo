@@ -1,4 +1,4 @@
-def main():
+def main()
     print("Hello from CI!")
     with open("result.txt", "w") as f:
         f.write("This is the generated artifact from the successful build.\n")
